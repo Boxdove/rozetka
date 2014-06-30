@@ -1,7 +1,7 @@
 rozetka
 =======
 Testting scenario with using such tools as
-BD
+BDD
 Jbehave
 PageObject
 Webdriver
