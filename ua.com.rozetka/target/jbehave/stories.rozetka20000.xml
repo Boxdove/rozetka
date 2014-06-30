@@ -1,0 +1,16 @@
+<story path="stories/rozetka20000.story" title="">
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="In order to">purchase the product</inOrderTo>
+  <asA keyword="As a">buyer</asA>
+  <iWantTo keyword="I want to">the system count total price I have to pay</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="if total sum is more than 20000 grn gift is added to the cart">
+<step outcome="successful">Given main page rozetka.com.ua</step>
+<step outcome="successful">When user has entered to the rozetka.com.ua</step>
+<step outcome="successful">And shopping cart is cleared</step>
+<step outcome="successful">And user goes to the nessessary huge products page for choosing</step>
+<step outcome="successful">And total sum in shopping cart is more than 20000 grn</step>
+<step outcome="failed" keyword="FAILED">Then gift is added to the shopping cart<failure>org.junit.ComparisonFailure: expected:&lt;[&#1057;&#1090;&#1086;&#1080;&#1084;&#1086;&#1089;&#1090;&#1100; &#1076;&#1086;&#1089;&#1090;&#1072;&#1074;&#1082;&#1080;
+]&#1073;&#1077;&#1089;&#1087;&#1083;&#1072;&#1090;&#1085;&#1086;&gt; but was:&lt;[]&#1073;&#1077;&#1089;&#1087;&#1083;&#1072;&#1090;&#1085;&#1086;&gt;</failure></step>
+</scenario>
+</story>
