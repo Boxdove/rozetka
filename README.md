@@ -1,8 +1,10 @@
 rozetka
 =======
-Testting scenario with using such tools as
+Testting scenarios with using such tools as
 BDD,
 Jbehave,
 PageObject,
 Webdriver,
-Maven
+Maven.
+
+The goal is demonstrating of BDD in action.
